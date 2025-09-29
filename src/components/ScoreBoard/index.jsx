@@ -26,9 +26,9 @@ const ScoreBoard = ({ results, onRestart }) => {
       {/* Resumo no Topo */}
       <div className={styles.summary}>
 
-        <div className={styles.summaryItem}>Pontuação Total: <strong className={styles.highlightScore}>{totalScore} pts</strong></div>
+        <div className={styles.summaryItem}>Pontuação Final: <strong className={styles.highlightScore}>{totalScore} pts</strong></div>
         <div className={styles.summaryItem}>Acertos: <strong>{totalCorrect} / {totalQuestions} ({percentCorrect}%)</strong></div>
-        <div className={styles.summaryItem}>Menor Tempo: <strong>{minTime}s</strong></div>
+        <div className={styles.summaryItem}>Menor Tempo de Resposta: <strong>{minTime}s</strong></div>
         <div className={styles.summaryItem}>Tempo Total: <strong>{totalTime}s</strong></div>
 
       </div>
