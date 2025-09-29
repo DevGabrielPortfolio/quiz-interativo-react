@@ -1,53 +1,64 @@
-/* src/components/QuestionCard/QuestionCard.module.css */
 .card {
-    padding: 30px;
-    background-color: white;
-    border-radius: 0 0 8px 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    margin-bottom: 20px;
-  }
   
-  .questionText {
-    font-size: 1.6em;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  
-  .optionsContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centraliza os botões */
-    gap: 15px;
-  }
-  
-  .optionButton {
-    width: 80%; /* Botões mais largos e centralizados */
-    max-width: 500px;
-    padding: 15px;
-    border: 1px solid #007bff;
-    border-radius: 8px;
-    background-color: white;
-    color: #007bff;
-    font-size: 1.1em;
-    text-align: left;
-    cursor: pointer;
-    transition: background-color 0.2s, transform 0.1s;
-    display: flex;
-    align-items: center;
-  }
-  
-  .optionButton:hover {
-    background-color: #e6f0ff;
-    transform: translateY(-2px);
-  }
-  
-  .optionLetter {
-    font-weight: bold;
-    margin-right: 15px;
-    background-color: #007bff;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 4px;
-  }
+  padding: 30px;
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+
+}
+
+.questionText {
+
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+.optionsContainer {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.optionButton {
+
+  width: 80%;
+  max-width: 500px;
+  padding: 15px;
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  background-color: white;
+  color: #007bff;
+  font-size: 1.1em;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  display: flex;
+  align-items: center;
+
+}
+
+.optionButton:hover {
+
+  background-color: #e6f0ff;
+  transform: translateY(-2px);
+
+}
+
+.optionLetter {
+
+  font-weight: bold;
+  margin-right: 15px;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+
+}
