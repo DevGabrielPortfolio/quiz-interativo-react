@@ -1,0 +1,97 @@
+/* src/components/ScoreBoard/ScoreBoard.module.css */
+.scoreBoard {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    color: #28a745;
+    margin-bottom: 25px;
+  }
+  
+  .summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px dashed #ccc;
+    border-radius: 6px;
+  }
+  
+  .summaryItem {
+    font-size: 1.1em;
+  }
+  
+  .highlightScore {
+    color: #007bff;
+    font-size: 1.3em;
+  }
+  
+  .restartButton {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-bottom: 30px;
+  }
+  
+  .restartButton:hover {
+    background-color: #e0a800;
+  }
+  
+  .detailsHeader {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #555;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .detailsList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .detailCard {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .correct {
+    background-color: #d4edda;
+    border-left: 5px solid #28a745; /* Verde */
+  }
+  
+  .incorrect {
+    background-color: #f8d7da;
+    border-left: 5px solid #dc3545; /* Vermelho */
+  }
+  
+  .detailCard h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .detailCard p {
+    margin: 5px 0;
+  }
+  
+  .detailCard strong {
+    font-weight: 600;
+  }
