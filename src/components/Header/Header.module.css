@@ -1,28 +1,35 @@
-/* src/components/Header/Header.module.css */
 .header {
-    background-color: #007bff;
-    color: white;
-    padding: 15px 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 8px 8px 0 0;
-  }
   
-  .title {
-    margin: 0;
-    font-size: 1.8em;
-  }
-  
-  .info {
-    display: flex;
-    gap: 30px;
-    font-size: 1.1em;
-    font-weight: 500;
-  }
-  
-  .timer strong {
-    color: #ffc107; /* Amarelo de destaque */
-    font-size: 1.2em;
-  }
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px 8px 0 0;
+
+}
+
+.title {
+
+  margin: 0;
+  font-size: 1.8em;
+
+}
+
+.info {
+
+  display: flex;
+  gap: 30px;
+  font-size: 1.1em;
+  font-weight: 500;
+
+}
+
+.timer strong {
+
+  color: #ffc107;
+  font-size: 1.2em;
+
+}
